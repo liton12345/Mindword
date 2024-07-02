@@ -1,0 +1,76 @@
+.profile-container{
+    padding: 20px 15%;
+    color: #626262;
+}
+.cover-img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile-details{
+    background: white;
+    padding: 20px;
+    border-radius: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pd-row{
+    display: flex;
+    align-items: flex-start;
+}
+.pd-row div{
+    margin:12px 0 0 4px;
+}
+.pd-row h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.pd-row div h3 title{
+    background: #00eba0;
+}
+.pd-row p{
+    font-size: 13px;
+}
+.pd-row div img{
+    width: 20px;
+    border-radius: 50%;
+}
+.pd-img{
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 8px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.profile-detail-right{
+
+}
+.profile-detail-right button{
+    margin-right: 8px;
+    padding: 3px;
+    background: rgba(0, 235, 160, 0.8);
+    box-sizing: border-box;
+    border-color: #00eba0;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.profile-detail-right button img{
+    width: 13px;
+    margin-left: 3px;
+}
+.profile-detail-right {
+    text-align: right;
+}
+.profile-detail-right a{
+    background: #e4e6eb;
+    border-radius: 15px;
+    padding: 12px;
+    display: inline-flex;
+    margin-top:30px ;
+}
+.profile-detail-right a img{
+    width: 20px;
+}
